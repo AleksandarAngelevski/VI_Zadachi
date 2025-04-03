@@ -39,11 +39,18 @@
 
 list1 = [[1]]
 list2 = list(list1)
-
+def k(state):
+    list(state).remove((1,2))
+    return True
 print(((3,2,1),('',),('',))==((3,2,1),('',),('',)))
 
 torka = ((1,2),(3,4))
 torka2 = ((4,3),(2,1))
+top = torka
+print(top)
 
-
-
+print(torka)
+print(k(top))
+print(top)
+h = ['a','b','c']
+print(h[:-1])
