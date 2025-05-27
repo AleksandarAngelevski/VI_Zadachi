@@ -1,0 +1,10 @@
+Problem: klasa so koja se definira prolblem i se zemaat reshenija na definiraniot Problem
+Variable: klasa so koja se definira promenliva
+Domain : klasa so koja se definira mozhni vrednosti na promenliva
+
+
+Nachini na reshavanje:
+Solver: abstract base class
+BacktrackingSolver: solving using backtracking 
+RecursiveBacktrackingSolver: recursive backtracking solution
+MinConflictsSolver: solving based on minimum conflicts
