@@ -48,9 +48,10 @@ torka = ((1,2),(3,4))
 torka2 = ((4,3),(2,1))
 top = torka
 print(top)
-
+print("hello")
 print(torka)
 print(k(top))
 print(top)
+
 h = ['a','b','c']
 print(h[:-1])
