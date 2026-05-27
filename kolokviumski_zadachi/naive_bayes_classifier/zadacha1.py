@@ -2,7 +2,6 @@ from sklearn.naive_bayes import CategoricalNB
 from sklearn.preprocessing import OrdinalEncoder 
 
 
-
 if __name__ == "__main__":
 
     encoder = OrdinalEncoder()
