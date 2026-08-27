@@ -76,7 +76,6 @@ if __name__ == '__main__':
     clsf = {}
 
     nb = GaussianNB()
-
     clsf["Naive Bayes"] = nb
     dt = DecisionTreeClassifier(criterion='entropy', random_state=0)
     clsf["Decision Tree"] = dt
@@ -105,7 +104,7 @@ if __name__ == '__main__':
         zeroVotes = 0
         oneVotes = 0
         for name, model in clsf.items():
-            pred =model.predict([x])
+            pred = model.predict([x])
             if pred[0] == 0:
                 if name == max:
                     zeroVotes += 2
